@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"
+    android:contentDescription="@string/app_name"
+    tools:context=".signup_activity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="300dp"
+            android:padding="20dp"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:id="@+id/emaillgin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email"
+                android:drawableLeft="@drawable/ic_baseline_email_24"
+                android:drawablePadding="8dp">
+
+            </EditText>
+            <EditText
+                android:id="@+id/passwordlgin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:layout_marginTop="30dp"
+                android:drawableLeft="@drawable/ic_baseline_lock_24"
+                android:drawablePadding="8dp">
+
+            </EditText>
+
+            <Button
+                android:layout_width="350dp"
+                android:id="@+id/loginbtn"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="Log in"
+                app:cornerRadius="30dp">
+
+            </Button>
+            <TextView
+                android:layout_marginTop="30dp"
+                android:layout_width="350dp"
+                android:layout_height="20dp"
+                android:id="@+id/etsignup"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                android:gravity="center"
+                android:text="click to sign up">
+
+            </TextView>
+            <TextView
+                android:layout_marginTop="30dp"
+                android:layout_width="350dp"
+                android:layout_height="20dp"
+                android:id="@+id/etforgetpwd"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                android:gravity="center"
+                android:text="forget password">
+
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</ScrollView>
